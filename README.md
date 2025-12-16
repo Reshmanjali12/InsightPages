@@ -179,4 +179,4 @@ For major changes, please open an issue first.
 ## 👩‍💻 Author
 
 **Reshmanjali**
-GitHub: [https://github.com/your-username](https://github.com/your-username)
+GitHub: [https://github.com/Reshmanjali12](https://github.com/Reshmanjali12)
