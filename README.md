@@ -75,34 +75,31 @@ npm install express multer pdf-parse cors dotenv@^16.4.5
 4. Replace package.json with this
 ```
 {
-  "name": "client",
-  "private": true,
-  "version": "0.0.0",
+  "name": "ip",
+  "version": "1.0.0",
   "type": "module",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "axios": "^1.13.2",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0",
-    "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.2.5"
+    "@langchain/core": "^1.1.4",
+    "@langchain/groq": "^1.0.2",
+    "@langchain/openai": "^1.1.3",
+    "@langchain/textsplitters": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "langchain": "^1.1.5",
+    "multer": "^2.0.2",
+    "natural": "^8.1.0",
+    "pdf-parse": "^2.4.5",
+    "simple-statistics": "^7.8.8"
   }
 }
 
