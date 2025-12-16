@@ -59,9 +59,17 @@ cd InsightPages
 
 ```bash
 npm init -y
+```
+```bash
 npm install dotenv@^16.4.5
+```
+```bash
 npm install langchain @langchain/openai @langchain/core @langchain/textsplitters
+```
+```bash
 npm install langchain @langchain/groq
+```
+```bash
 npm install express multer pdf-parse cors dotenv@^16.4.5
 ```
 4. Replace package.json with this
@@ -120,6 +128,8 @@ cd client
 
 ```bash
 npm install
+```
+```bash
 npm install axios
 ```
 8.Replace client/src/App.jsx file with the App.jsx file in git.
