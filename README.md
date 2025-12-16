@@ -147,7 +147,7 @@ export const BACKEND_URL = "http://localhost:4000";
 ```bash
 npm start
 ```
-in another terminal shell 
+in another terminal shell navigate to client 
 
 ```bash
 npm run dev
