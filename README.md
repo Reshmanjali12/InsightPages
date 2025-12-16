@@ -54,6 +54,9 @@ git clone https://github.com/Reshmanjali12/InsightPages.git
 ```bash
 cd InsightPages
 ```
+```bash
+cd ip
+```
 
 3. Install dependencies
 
