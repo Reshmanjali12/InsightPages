@@ -29,12 +29,12 @@ InsightPages is an AI powered platform to upload documents (PDFs) and interact w
 ```
 InsightPages/
 ├── src/
-│ ├── routes/ # API routes
-│ ├── services/ # Controllers & business logic
-│ ├── llm/ # LLM client & vector store logic
-│ ├── server.js # App entry point
-├── uploads/ # Temporary uploaded files
-├── .env # Environment variables
+│ ├── routes/
+│ ├── services/
+│ ├── llm/
+│ ├── server.js
+├── uploads/
+├── .env
 ├── package.json
 └── README.md
 ```
